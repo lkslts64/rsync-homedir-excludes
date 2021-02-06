@@ -15,10 +15,10 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
+.android
 #.AndroidStudio*/
 #Android/Sdk
-#.gradle
+.gradle
 #.gvm
 #.grails/
 #.grails_history
@@ -28,7 +28,7 @@
 #.local/share/libvirt
 #.vagrant
 #.vagrant.d
-#.wine
+.wine
 #.twister
 #/twister
 #Applications/eclipse*
@@ -36,7 +36,7 @@
 #*Popcorntime*
 #/.aMule
 #/Scribus
-#/VirtualBox*
+/VirtualBox*
 #/Nextcloud
 #_build
 #
@@ -55,26 +55,26 @@
 #.local/share/lutris/runners/wine/
 #
 ## Spotify
-#.config/spotify/Users
+.config/spotify/Users
 #
 ## those folders contain only temporary Videos I want to watch
 #/Videos
 #/Movies
 #
 ## some history files
-#.python_history
-#.bash_history
+.python_history
+.bash_history
 #.zsh_history
-#.mysql_history
+.mysql_history
 #
 ## Python eggs
-#.local/lib/python*
+.local/lib/python*
 #
 ## Python virtual environments
 #PycharmProjects/**/venv
 #
 ## Maven local repository
-#/.m2
+.m2
 #
 ## Unlocked Plasma Vaults
 #/Vaults
@@ -85,21 +85,21 @@
 
 # Contains mounted file systems:
 
-.gvfs
-.local/share/gvfs-metadata
+#.gvfs
+#.local/share/gvfs-metadata
 # contains the actual encrypted home directory
-/.Private
+#.Private
 
 # Session-specific:
-/.dbus
+.dbus
 .cache
-/.Trash
+.Trash
 .Trash-1*
 .local/share/Trash
 /Trash
 
 # Cached info about audio CDs:
-.cddb
+#.cddb
 
 # Cached packages lists:
 .aptitude
@@ -138,10 +138,10 @@ Thumbs.db
 .wget-hsts
 
 # Common Unix Printing System
-/.cups
+.cups
 
 # run-time configuration information for Subversion
-/.subversion
+.subversion
 
 # Python virtual environments
 /.virtualenvs
